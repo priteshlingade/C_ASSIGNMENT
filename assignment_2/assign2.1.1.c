@@ -34,6 +34,13 @@ else if (48<=data && data<=57)									// check if data is numeric
 
     printf("\n entered data %c is  numerical data \n",data);
 
+else if(data==' ')
+{
+
+	printf("enter data \\n is SPACE \n ");
+}
+
+
 else															// if data is symbolic char
 
     printf("\n entered data %c is other character  \n",data);
