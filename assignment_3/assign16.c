@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 int main()
 {
@@ -11,7 +10,7 @@ int main()
 		printf("GUESS THE NUMBER GAME(1-100)\nrules:\n\t1)if guess<ans '**left**' \n\t2)if guess>ans '**right'\n\t3)you will get 10 chance to guess\n\n");
 
 
-//          printf("%d\n",random);
+          printf("%d\n",random);
  do
  {
  	for(i=1;i<=10;i++)
