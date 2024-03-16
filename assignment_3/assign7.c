@@ -9,7 +9,7 @@
    
   temp=num;
   
-      while (i<num/2 && i<temp)
+      while (i<temp)
       {
           if (num%i==0)
 		  {
